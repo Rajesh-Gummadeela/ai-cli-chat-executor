@@ -190,7 +190,7 @@ CLI/
 #### 1. Clone & Set Up Backend
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/cli-driven-ai-chat.git
+git clone https://github.com/Rajesh-Gummadeela/ai-cli-chat-executor.git
 cd cli-driven-ai-chat
 
 # Install Python backend dependencies
