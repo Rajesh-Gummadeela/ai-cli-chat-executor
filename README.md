@@ -166,7 +166,6 @@ CLI/
 ├── utils/                    # Root forwarding package
 ├── docker-compose.yml        # Multi-container orchestration
 ├── DEMO_SCRIPT.md            # Live walkthrough script for judges
-├── VIDEO_SCRIPT.md           # 4-7 minute video explanation outline
 ├── ARCHITECTURE.md           # In-depth architectural specification
 ├── .gitignore
 ├── .env.example
@@ -407,20 +406,6 @@ curl -X POST http://localhost:8000/chat \
 
 ---
 
-## 12. Evaluation Criteria Mapping
-
-| Evaluation Area (100 Marks) | Weight | Where It Is Implemented |
-| :--- | :---: | :--- |
-| **Working Implementation** | 25 | Live end-to-end flow in Next.js + FastAPI; no mock data; real HTTP crawling. |
-| **CLI Integration** | 20 | `backend/services/cli_executor.py` spawns real process, captures stdout/stderr/exitCode. |
-| **End-to-End Task Quality** | 15 | Live extraction of headings, clean content, links, markdown summary, valid JSON. |
-| **Architecture & Engineering** | 15 | Clean modular folder structure, Pydantic V2 schemas, async I/O, OpenAPI documentation. |
-| **Security & Reliability** | 10 | RFC 1918 & cloud metadata SSRF blocking, scheme whitelisting, timeout kill switch. |
-| **Explanation Video & Outline** | 10 | `VIDEO_SCRIPT.md` and `DEMO_SCRIPT.md` providing step-by-step walkthroughs. |
-| **Originality & User Experience** | 5 | Cyber-dark ChatGPT interface, real-time stepper, live logs modal, JSON download. |
-
----
-
-## 13. License
+## 12. License
 
 Distributed under the MIT License. See `LICENSE` for more information.
